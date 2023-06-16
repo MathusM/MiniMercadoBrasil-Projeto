@@ -1,0 +1,600 @@
+body {
+    overflow-x: hidden;
+  }
+
+header {
+    position: static;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(85, 250, 93)5%, rgb(73, 224, 46) 95%);
+    
+    
+}
+
+nav {
+    padding: 40px 10px 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+#Title-Pag {
+    margin-left: 1.0rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    
+    
+}
+
+nav ul {
+    margin-right: 1.5rem;
+    flex-wrap: wrap;
+    display: flex;
+    align-self: center;
+
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin-top: 10px;
+    display: inline-block;
+    transition: 1s all;
+
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0 5px;
+
+    font-weight: 800;
+    font-size: 25px;
+    
+    
+}
+
+nav li:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+.main-index {
+    position: static;
+    overflow: hidden;
+    background: linear-gradient(rgba(70, 244, 57, 0.16), rgb(255,255,255), rgba(116, 255, 107, 0.3));
+}
+
+.titulo-containerp {
+    margin-top: 32px;
+    
+    text-align: center;
+
+}
+
+.titulo-containerp h1 {
+    text-shadow: 3px 5px 15px;
+    text-align: center;
+    font-size: 43px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.container-grade1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.produtos {
+    overflow: hidden;
+    padding: 20px 10px 5px 10px ;
+
+    font-size: 1em;
+    text-align: center;
+
+    box-sizing: border-box;
+    border: 3px solid green;
+    border-radius: 22px;
+    box-shadow: 2px 3px 10px;
+    align-items: center;
+
+    background: linear-gradient( rgb(255, 255, 255),rgb(255, 255, 255),rgba(163, 255, 152, 0.267));
+    
+
+    margin: 10px 20px 10px 20px;
+    width: 22rem;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    min-height: 12em;
+
+    
+}
+.produtos h3 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 800;
+    text-shadow: 3px 3px 10px;
+}
+
+.produtos h1 {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 1px 1px 3px;
+    
+}
+
+.produtos img{
+    margin-bottom: 1.2em;
+    width: 20%;
+    
+    
+}
+
+.produtos p {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 3px;
+    margin-bottom: 0.1em;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.map {
+    overflow: hidden;
+    padding: 30px 5px 10px 0;
+    position: static;
+    display: flex;
+    background: url(./img/Design\ sem\ nome\ \(1\).png);
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+   
+}
+
+#titulo-map{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+    
+}
+#titulo-map p {
+    font-size: 22px;
+    
+}
+
+#mapa-comercio {
+    width: 70%;
+    height: auto;
+}
+
+#text-map2 {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+#text-map2 h2 {
+    font-size: 1.2rem;
+    color: rgb(17, 20, 1);
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Rajdhani', sans-serif;
+    
+    
+}
+
+#text-map2 p {
+    font-size: 1rem;
+    color: rgb(4, 4, 0);
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    
+    font-weight: 800;
+    
+}
+
+.carrocel-novidades {
+    padding-top: 4rem;
+    overflow: hidden;
+    position: static;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+    background: linear-gradient(rgb(25, 252, 66),rgba(255, 255, 255, 0.515), rgb(255, 255, 255));
+}
+
+.Novidades {
+    font-weight: bold;
+    font-size: 3.2rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 12px;
+    
+}
+
+.caixas {
+    max-width: 18rem;
+    padding: 10px 40px;
+    scroll-snap-align: start;
+    position: relative;
+    margin-left: 1rem;
+    flex: 0 0 33.33%;
+    
+    
+}
+
+.caixas p {
+    word-break: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.caixas img {
+    box-shadow: 5px 5px 10px ;
+    width: 50%;
+    margin-left: 1.2rem;
+    margin-bottom: 4px;
+   
+}
+
+footer {
+    
+    background: rgb(22, 130, 22);
+    overflow: hidden;
+    position: static;
+    padding: 20px;
+
+}
+.footer-pag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.footer-pag img {
+    width: 200px;
+    height: 200px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.icones-link {
+   
+        position:absolute;
+        
+        bottom: 0;
+        right: 30px;
+      
+      }
+
+
+.icones-link a i{
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 10px;
+    
+   
+}
+
+
+
+/*Contato.html*/
+.main-contato {
+    
+    position: static;
+    overflow: hidden;
+}
+.section-form {
+    background: url(./img/background-contato.png);
+    padding: 30px 20px 30px 25px;
+    overflow: hidden;
+    justify-content: center;
+    
+}
+form label, form legend {
+    display: block;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fieldset-form1 legend {
+    font-size: 1.5rem;
+}
+.form-contato textarea::-webkit-scrollbar-thumb {
+    background-color: #f7f7f7;
+  }
+
+.form-contato textarea::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.form-contato textarea::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.form-contato textarea {
+    overflow-y: scroll;
+    width: 50%;
+}
+
+.input-form {
+    border: none;
+    display: block;
+    padding: 10px 15px;
+    width: 70%;
+    margin: 0 0 30px;
+    border-radius: 25px;
+    background: rgb(63, 254, 63);
+    border: 3px solid rgb(150, 255, 150);
+
+    font-size: 1rem;
+
+}
+.fieldset-form1 {
+
+}
+
+.fieldset-form1 select{
+   border-radius: 14px;
+   border: 2px solid transparent;
+   background: green;
+   color: white;
+   font-size: 18px;
+}
+
+
+.checkbox  {
+    display: block;
+    margin: 20px 10px 20px;
+    font-size: 1.3rem;
+    
+    
+}
+
+.form-submit {
+    
+    margin: 2em 0 10px;
+    width: 20rem;
+    background: rgb(68, 255, 68);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 22px;
+    border: 3px solid rgb(100, 255, 100);
+    transition: 1s all;
+    margin-left: 20px;
+
+    
+
+    
+}
+
+.form-submit:hover {
+    transform: scale(1.1);
+    background: rgb(21, 158, 21);
+}
+
+/*Folheto.html*/
+.main-folheto {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+    background: url(./img/background-contato.png);
+    padding: 3rem 0 3rem 0;
+}
+
+.titulo-folheto {
+    
+    font-size: 48px;
+    font-weight: bold;
+    font-family:  'Dancing Script', cursive;
+}
+
+.img-folheto {
+    background: rgba(0, 0, 0, 0.401);
+    padding: 40px;
+    margin-top: 3rem;
+    width: 70%;
+    height: auto;
+
+
+}
+
+.div-buttondown {
+    margin-top: 1.5rem;
+    padding: 30px;
+}
+
+.titulo-button {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-download {
+    border: 2px solid rgba(151, 255, 160, 0.636);
+    background: rgba(2, 47, 2, 0.788);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 1s all;
+}
+
+.button-download:hover {
+    font-size: 18px;
+    background:rgb(7, 213, 7);
+    transform: scale(1.2);
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+    nav {
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    nav li a {
+        font-size: 0.8rem;
+    }
+    
+    #Title-Pag {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    nav ul {
+        align-self: center;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        margin-right: 70px;
+        width: 100%;
+        flex-direction: column;
+        
+        
+    }
+
+    header {
+        background:linear-gradient( rgb(83, 220, 115)5%, rgb(64, 209, 74) 95%);
+    }
+    
+    nav li a {
+        font-size: 1.1rem;
+    }
+    
+    #Title-Pag {
+        margin-left: -10px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 2.8rem;
+    }
+    
+    nav ul {
+        align-self: center;
+    }
+
+    .produtos {
+        width: 50rem;
+        height: 12rem;
+        margin: 0.5rem;
+    }
+    .produtos h1 {
+        font-size: 0.8em;
+    }
+
+    .produtos h3 {
+        font-size: 0.6rem;
+    }
+
+    .produtos img {
+        width: 60%;
+    }
+
+    .map {
+        background: url(./img/background\ responsive.png);
+        
+    }
+    #mapa-comercio {
+        width: auto;
+        height: auto;
+    }
+    .Novidades {
+        margin-top: 0;
+        font-size:2.5rem;
+       
+    }
+    .caixas img {
+        width: 70%;
+    }
+    .footer-pag {
+        align-items: flex-start;
+    }
+
+    .footer-pag img {
+        margin-left: 40px;
+        width: 100px;
+        height: 100px;
+    }
+    .copyright {
+        font-size: 12px;
+    
+        
+    }
+    .logo-footer {
+    
+    }
+
+    .icones-link a i {
+        font-size: 1.6rem;
+    }
+
+
+
+    /*Contato*/
+
+    .form label, form legend {
+        width: auto;
+    }
+
+    .input-form {
+        width: 90%;
+        
+    }
+    .form-contato textarea {
+        width: 90%;
+        margin-bottom: 4rem;
+    }
+
+    .form-submit {
+        margin-left: 0;
+    }
+
+}
+
+
+
+
+
+
